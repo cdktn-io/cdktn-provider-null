@@ -1,15 +1,15 @@
-# `dataNullDataSource` Submodule <a name="`dataNullDataSource` Submodule" id="@cdktf/provider-null.dataNullDataSource"></a>
+# `dataNullDataSource` Submodule <a name="`dataNullDataSource` Submodule" id="@cdktn/provider-null.dataNullDataSource"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### DataNullDataSource <a name="DataNullDataSource" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource"></a>
+### DataNullDataSource <a name="DataNullDataSource" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/data-sources/data_source null_data_source}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_null import data_null_data_source
+from cdktn_provider_null import data_null_data_source
 
 dataNullDataSource.DataNullDataSource(
   scope: Construct,
@@ -28,21 +28,21 @@ dataNullDataSource.DataNullDataSource(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.hasComputedDefault">has_computed_default</a></code> | <code>str</code> | If set, its literal value will be stored and returned. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.inputs">inputs</a></code> | <code>typing.Mapping[str]</code> | A map of arbitrary strings that is copied into the `outputs` attribute, and accessible directly for interpolation. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.hasComputedDefault">has_computed_default</a></code> | <code>str</code> | If set, its literal value will be stored and returned. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.inputs">inputs</a></code> | <code>typing.Mapping[str]</code> | A map of arbitrary strings that is copied into the `outputs` attribute, and accessible directly for interpolation. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -50,7 +50,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -60,49 +60,49 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `has_computed_default`<sup>Optional</sup> <a name="has_computed_default" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.hasComputedDefault"></a>
+##### `has_computed_default`<sup>Optional</sup> <a name="has_computed_default" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.hasComputedDefault"></a>
 
 - *Type:* str
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `inputs`<sup>Optional</sup> <a name="inputs" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.inputs"></a>
+##### `inputs`<sup>Optional</sup> <a name="inputs" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer.parameter.inputs"></a>
 
 - *Type:* typing.Mapping[str]
 
@@ -128,29 +128,29 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.toHclTerraform">to_hcl_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.resetHasComputedDefault">reset_has_computed_default</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.resetInputs">reset_inputs</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.toHclTerraform">to_hcl_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.resetHasComputedDefault">reset_has_computed_default</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.resetInputs">reset_inputs</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.toString"></a>
 
 ```python
 def to_string() -> str
@@ -158,7 +158,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.addOverride"></a>
 
 ```python
 def add_override(
@@ -167,19 +167,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -189,7 +189,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -197,7 +197,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -205,7 +205,7 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
@@ -213,13 +213,13 @@ def to_hcl_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -227,7 +227,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -235,13 +235,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -249,13 +249,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -263,13 +263,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -277,13 +277,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -291,13 +291,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -305,13 +305,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -319,13 +319,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -333,13 +333,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -347,13 +347,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -361,19 +361,19 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `reset_has_computed_default` <a name="reset_has_computed_default" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.resetHasComputedDefault"></a>
+##### `reset_has_computed_default` <a name="reset_has_computed_default" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.resetHasComputedDefault"></a>
 
 ```python
 def reset_has_computed_default() -> None
 ```
 
-##### `reset_inputs` <a name="reset_inputs" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.resetInputs"></a>
+##### `reset_inputs` <a name="reset_inputs" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.resetInputs"></a>
 
 ```python
 def reset_inputs() -> None
@@ -383,17 +383,17 @@ def reset_inputs() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isTerraformDataSource">is_terraform_data_source</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a DataNullDataSource resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isTerraformDataSource">is_terraform_data_source</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a DataNullDataSource resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_null import data_null_data_source
+from cdktn_provider_null import data_null_data_source
 
 dataNullDataSource.DataNullDataSource.is_construct(
   x: typing.Any
@@ -416,7 +416,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -424,42 +424,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_null import data_null_data_source
+from cdktn_provider_null import data_null_data_source
 
 dataNullDataSource.DataNullDataSource.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_data_source` <a name="is_terraform_data_source" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isTerraformDataSource"></a>
+##### `is_terraform_data_source` <a name="is_terraform_data_source" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isTerraformDataSource"></a>
 
 ```python
-from cdktf_cdktf_provider_null import data_null_data_source
+from cdktn_provider_null import data_null_data_source
 
 dataNullDataSource.DataNullDataSource.is_terraform_data_source(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.isTerraformDataSource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_null import data_null_data_source
+from cdktn_provider_null import data_null_data_source
 
 dataNullDataSource.DataNullDataSource.generate_config_for_import(
   scope: Construct,
@@ -471,7 +471,7 @@ dataNullDataSource.DataNullDataSource.generate_config_for_import(
 
 Generates CDKTF code for importing a DataNullDataSource resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -479,7 +479,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -487,7 +487,7 @@ The construct id used in the generated config for the DataNullDataSource to impo
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
@@ -497,7 +497,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -509,29 +509,29 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.outputs">outputs</a></code> | <code>cdktf.StringMap</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.random">random</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.hasComputedDefaultInput">has_computed_default_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.inputsInput">inputs_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.hasComputedDefault">has_computed_default</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.inputs">inputs</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.outputs">outputs</a></code> | <code>cdktf.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.random">random</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.hasComputedDefaultInput">has_computed_default_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.inputsInput">inputs_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.hasComputedDefault">has_computed_default</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.inputs">inputs</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.node"></a>
 
 ```python
 node: Node
@@ -543,7 +543,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -553,7 +553,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.fqn"></a>
 
 ```python
 fqn: str
@@ -563,7 +563,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -573,7 +573,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -583,7 +583,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -593,7 +593,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -603,7 +603,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -613,7 +613,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -623,7 +623,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -633,7 +633,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -643,7 +643,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -653,7 +653,7 @@ provider: TerraformProvider
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.id"></a>
 
 ```python
 id: str
@@ -663,7 +663,7 @@ id: str
 
 ---
 
-##### `outputs`<sup>Required</sup> <a name="outputs" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.outputs"></a>
+##### `outputs`<sup>Required</sup> <a name="outputs" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.outputs"></a>
 
 ```python
 outputs: StringMap
@@ -673,7 +673,7 @@ outputs: StringMap
 
 ---
 
-##### `random`<sup>Required</sup> <a name="random" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.random"></a>
+##### `random`<sup>Required</sup> <a name="random" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.random"></a>
 
 ```python
 random: str
@@ -683,7 +683,7 @@ random: str
 
 ---
 
-##### `has_computed_default_input`<sup>Optional</sup> <a name="has_computed_default_input" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.hasComputedDefaultInput"></a>
+##### `has_computed_default_input`<sup>Optional</sup> <a name="has_computed_default_input" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.hasComputedDefaultInput"></a>
 
 ```python
 has_computed_default_input: str
@@ -693,7 +693,7 @@ has_computed_default_input: str
 
 ---
 
-##### `inputs_input`<sup>Optional</sup> <a name="inputs_input" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.inputsInput"></a>
+##### `inputs_input`<sup>Optional</sup> <a name="inputs_input" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.inputsInput"></a>
 
 ```python
 inputs_input: typing.Mapping[str]
@@ -703,7 +703,7 @@ inputs_input: typing.Mapping[str]
 
 ---
 
-##### `has_computed_default`<sup>Required</sup> <a name="has_computed_default" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.hasComputedDefault"></a>
+##### `has_computed_default`<sup>Required</sup> <a name="has_computed_default" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.hasComputedDefault"></a>
 
 ```python
 has_computed_default: str
@@ -713,7 +713,7 @@ has_computed_default: str
 
 ---
 
-##### `inputs`<sup>Required</sup> <a name="inputs" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.inputs"></a>
+##### `inputs`<sup>Required</sup> <a name="inputs" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.inputs"></a>
 
 ```python
 inputs: typing.Mapping[str]
@@ -727,11 +727,11 @@ inputs: typing.Mapping[str]
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSource.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -743,12 +743,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### DataNullDataSourceConfig <a name="DataNullDataSourceConfig" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig"></a>
+### DataNullDataSourceConfig <a name="DataNullDataSourceConfig" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_null import data_null_data_source
+from cdktn_provider_null import data_null_data_source
 
 dataNullDataSource.DataNullDataSourceConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -767,19 +767,19 @@ dataNullDataSource.DataNullDataSourceConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.hasComputedDefault">has_computed_default</a></code> | <code>str</code> | If set, its literal value will be stored and returned. |
-| <code><a href="#@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.inputs">inputs</a></code> | <code>typing.Mapping[str]</code> | A map of arbitrary strings that is copied into the `outputs` attribute, and accessible directly for interpolation. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.hasComputedDefault">has_computed_default</a></code> | <code>str</code> | If set, its literal value will be stored and returned. |
+| <code><a href="#@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.inputs">inputs</a></code> | <code>typing.Mapping[str]</code> | A map of arbitrary strings that is copied into the `outputs` attribute, and accessible directly for interpolation. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -789,7 +789,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -799,7 +799,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -809,7 +809,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -819,7 +819,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -829,7 +829,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -839,7 +839,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -849,7 +849,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `has_computed_default`<sup>Optional</sup> <a name="has_computed_default" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.hasComputedDefault"></a>
+##### `has_computed_default`<sup>Optional</sup> <a name="has_computed_default" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.hasComputedDefault"></a>
 
 ```python
 has_computed_default: str
@@ -865,7 +865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `inputs`<sup>Optional</sup> <a name="inputs" id="@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.inputs"></a>
+##### `inputs`<sup>Optional</sup> <a name="inputs" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.property.inputs"></a>
 
 ```python
 inputs: typing.Mapping[str]
