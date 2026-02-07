@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4
 #### Initializers <a name="Initializers" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-null-go/null/v11/datanulldatasource"
+import "github.com/cdktn-io/cdktn-provider-null-go/null/v12/datanulldatasource"
 
 datanulldatasource.NewDataNullDataSource(scope Construct, id *string, config DataNullDataSourceConfig) DataNullDataSource
 ```
@@ -290,7 +290,7 @@ func ResetInputs()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-null-go/null/v11/datanulldatasource"
+import "github.com/cdktn-io/cdktn-provider-null-go/null/v12/datanulldatasource"
 
 datanulldatasource.DataNullDataSource_IsConstruct(x interface{}) *bool
 ```
@@ -322,7 +322,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-null-go/null/v11/datanulldatasource"
+import "github.com/cdktn-io/cdktn-provider-null-go/null/v12/datanulldatasource"
 
 datanulldatasource.DataNullDataSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -336,7 +336,7 @@ datanulldatasource.DataNullDataSource_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-null-go/null/v11/datanulldatasource"
+import "github.com/cdktn-io/cdktn-provider-null-go/null/v12/datanulldatasource"
 
 datanulldatasource.DataNullDataSource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -350,7 +350,7 @@ datanulldatasource.DataNullDataSource_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-null-go/null/v11/datanulldatasource"
+import "github.com/cdktn-io/cdktn-provider-null-go/null/v12/datanulldatasource"
 
 datanulldatasource.DataNullDataSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -634,7 +634,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-null-go/null/v11/datanulldatasource"
+import "github.com/cdktn-io/cdktn-provider-null-go/null/v12/datanulldatasource"
 
 &datanulldatasource.DataNullDataSourceConfig {
 	Connection: interface{},
