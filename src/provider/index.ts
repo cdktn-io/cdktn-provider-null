@@ -1,5 +1,5 @@
 /**
- * Copyright (c) HashiCorp, Inc.
+ * Copyright IBM Corp. 2021, 2026
  * SPDX-License-Identifier: MPL-2.0
  */
 
@@ -63,7 +63,7 @@ export class NullProvider extends cdktf.TerraformProvider {
         providerVersion: '3.2.4',
         providerVersionConstraint: '~> 3.0'
       },
-      terraformProviderSource: 'null'
+      terraformProviderSource: 'hashicorp/null'
     });
     this._alias = config.alias;
   }
