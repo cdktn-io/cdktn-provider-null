@@ -19,17 +19,17 @@ The PyPI package is available at [https://pypi.org/project/cdktn-provider-null](
 
 ### Nuget
 
-The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Null](https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Null).
+The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Providers.Null](https://www.nuget.org/packages/Io.Cdktn.Providers.Null).
 
-`dotnet add package Io.Cdktn.Cdktn.Providers.Null`
+`dotnet add package Io.Cdktn.Providers.Null`
 
 ### Maven
 
-The Maven package is available at [https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-null](https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-null).
+The Maven package is available at [https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-null](https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-null).
 
 ```
 <dependency>
-    <groupId>com.Io.Cdktn</groupId>
+    <groupId>io.cdktn</groupId>
     <artifactId>cdktn-provider-null</artifactId>
     <version>[REPLACE WITH DESIRED VERSION]</version>
 </dependency>
