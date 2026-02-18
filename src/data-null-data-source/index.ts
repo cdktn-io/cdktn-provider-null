@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataNullDataSourceConfig extends cdktf.TerraformMetaArguments {
+export interface DataNullDataSourceConfig extends cdktn.TerraformMetaArguments {
   /**
   * If set, its literal value will be stored and returned. If not, its value defaults to `"default"`. This argument exists primarily for testing and has little practical use.
   *
@@ -29,7 +29,7 @@ export interface DataNullDataSourceConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/data-sources/data_source null_data_source}
 */
-export class DataNullDataSource extends cdktf.TerraformDataSource {
+export class DataNullDataSource extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -40,14 +40,14 @@ export class DataNullDataSource extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataNullDataSource resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataNullDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNullDataSource to import
   * @param importFromId The id of the existing DataNullDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/data-sources/data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNullDataSource to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "null_data_source", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "null_data_source", importId: importFromId, provider });
       }
 
   // ===========
@@ -123,7 +123,7 @@ export class DataNullDataSource extends cdktf.TerraformDataSource {
   }
 
   // outputs - computed: true, optional: false, required: false
-  private _outputs = new cdktf.StringMap(this, "outputs");
+  private _outputs = new cdktn.StringMap(this, "outputs");
   public get outputs() {
     return this._outputs;
   }
@@ -139,21 +139,21 @@ export class DataNullDataSource extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      has_computed_default: cdktf.stringToTerraform(this._hasComputedDefault),
-      inputs: cdktf.hashMapper(cdktf.stringToTerraform)(this._inputs),
+      has_computed_default: cdktn.stringToTerraform(this._hasComputedDefault),
+      inputs: cdktn.hashMapper(cdktn.stringToTerraform)(this._inputs),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       has_computed_default: {
-        value: cdktf.stringToHclTerraform(this._hasComputedDefault),
+        value: cdktn.stringToHclTerraform(this._hasComputedDefault),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       inputs: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._inputs),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._inputs),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
