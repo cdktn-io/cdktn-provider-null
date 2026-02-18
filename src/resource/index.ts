@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ResourceConfig extends cdktf.TerraformMetaArguments {
+export interface ResourceConfig extends cdktn.TerraformMetaArguments {
   /**
   * A map of arbitrary strings that, when changed, will force the null resource to be replaced, re-running any associated provisioners.
   *
@@ -23,7 +23,7 @@ export interface ResourceConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/resources/resource null_resource}
 */
-export class Resource extends cdktf.TerraformResource {
+export class Resource extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -34,14 +34,14 @@ export class Resource extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Resource resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Resource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resource to import
   * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs/resources/resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resource to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "null_resource", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "null_resource", importId: importFromId, provider });
       }
 
   // ===========
@@ -105,14 +105,14 @@ export class Resource extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      triggers: cdktf.hashMapper(cdktf.stringToTerraform)(this._triggers),
+      triggers: cdktn.hashMapper(cdktn.stringToTerraform)(this._triggers),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       triggers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._triggers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._triggers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",

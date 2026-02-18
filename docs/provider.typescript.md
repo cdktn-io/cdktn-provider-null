@@ -144,7 +144,7 @@ public resetAlias(): void
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.isTerraformProvider">isTerraformProvider</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-null.provider.NullProvider.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a NullProvider resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-null.provider.NullProvider.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a NullProvider resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -216,7 +216,7 @@ import { provider } from '@cdktn/provider-null'
 provider.NullProvider.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a NullProvider resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a NullProvider resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-null.provider.NullProvider.generateConfigForImport.parameter.scope"></a>
 
@@ -246,7 +246,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-null.provider.NullProvider.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the NullProvider to import is found.
 
@@ -257,12 +257,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-null.provider.NullProvider.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.provider.NullProvider.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.property.metaAttributes">metaAttributes</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-null.provider.NullProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-null.provider.NullProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.property.alias">alias</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-null.provider.NullProvider.property.aliasInput">aliasInput</a></code> | <code>string</code> | *No description.* |
@@ -287,7 +287,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -337,7 +337,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
