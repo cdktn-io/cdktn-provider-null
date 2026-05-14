@@ -4,7 +4,7 @@
 
 ### NullProvider <a name="NullProvider" id="@cdktn/provider-null.provider.NullProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs null}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs null}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-null.provider.NullProvider.Initializer"></a>
 
@@ -262,7 +262,7 @@ The construct id used in the generated config for the NullProvider to import.
 
 The id of the existing NullProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -441,7 +441,7 @@ public readonly alias: string;
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs#alias NullProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs#alias NullProvider#alias}
 
 ---
 
