@@ -202,6 +202,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      id-token: write
       issues: write
     if: ${{ inputs.publish_to_pypi }}
     steps:
@@ -236,8 +237,7 @@ jobs:
         run: mv .repo/dist dist
       - name: Release
         env:
-          TWINE_USERNAME: ${{ secrets.TWINE_USERNAME }}
-          TWINE_PASSWORD: ${{ secrets.TWINE_PASSWORD }}
+          PYPI_TRUSTED_PUBLISHER: "true"
           PUBLIB_DRYRUN: ${{ inputs.dry_run }}
         run: npx -p publib@latest publib-pypi
   release_nuget:
